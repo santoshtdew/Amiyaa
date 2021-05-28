@@ -12381,7 +12381,7 @@ body {
     margin-bottom: 2.63158rem;
     border-radius: 0 0.87719rem 0 0;
     margin-left: -3.50877rem;
-    margin-right: -5.96491rem;
+    margin-right: -4.5614rem;
     position: relative;
   }
   .txt-sec.mb::before {
@@ -12409,7 +12409,7 @@ body {
     border-radius: 0 0 0.87719rem 0;
   }
   .txt-sec.mb.active {
-    margin-right: -2.63158rem;
+    margin-right: -1.05263rem;
   }
   .txt-sec.mb.active::before {
     right: -2.01754rem;

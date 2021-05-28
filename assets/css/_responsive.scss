@@ -1,0 +1,55 @@
+
+// @include media-breakpoint-up(sm) {
+//   .mob-nav{display:none;}
+// }
+
+@include media-breakpoint-down(sm) {
+    html{font-size:12px;}
+    .navbar.main-navbar{padding:0 size(30);}
+    .banner-sec{min-height:auto}
+    .shape-fix{display: none;}
+    .container-inner{padding:0 size(20) 0 0}
+    .inner-pg-content{padding:size(20) 0 size(38) 0;
+        .about-right-img{height:size(140);
+            .bottm-shape{display:none;}
+            .about-girl-bg{position: absolute;right:size(-50);top:size(-50);max-width:size(75);}
+            .abt_footer_mob{display: block;}
+        }
+    }
+    .back-btn{display:inline-block;}
+    .inner-pg-hed{position:fixed;z-index:10;top:0;left:0;width:100%;background:$white;box-shadow:0 0 size(5) rgba(0,0,0,0.2);padding:size(18);text-align:center;margin:0;
+        .heading-1{font-size: size(18);margin:0;}
+    }
+    .inner-pg-left-bg{display:none;}
+    .inner-pg-rgt-bg{
+        .inner-bg-rgt-1{display:none;}
+        .inner-bg-rgt-2{display:none;}
+    }
+    .abt-left-mob-icon-1{display:block;}
+    .abt-left-mob-icon-2{display:block;}
+    .abt-rgt-mob-icon-1{display:block;}
+    .abt-rgt-mob-icon-2{display:block;}
+
+    .do-donot-sec{
+        .col-bg-do{border:0;padding:size(30) 0;}
+        .do-list{
+            & > li{
+               &:before{width:size(6);height:size(6);background:$yellow-color-1;}
+            }
+        }
+        .hed-title{background:transparent;color:$yellow-color-1;padding:0;font-weight:$font-weight-bold;text-transform: uppercase;height:auto;width:auto;position: static;}
+        .col-bg-donot{border:0;padding:size(30) 0;
+            .hed-title{background:transparent;color:$primary-web;padding:0;font-weight:$font-weight-bold;text-transform: uppercase;height:auto;width:auto;position: static;}
+            .do-list{
+                & > li{
+                   &:before{background:$primary-web;}
+                }
+            }
+        }
+    }
+    .privacy-pg{
+        .privacy-pg-sec{padding:0;}
+    }
+    .icons-box-desk{display: none;}
+    .icons-box-mob{display: block;}
+}

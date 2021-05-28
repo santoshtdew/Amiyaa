@@ -32,22 +32,40 @@ if($(".cook-carousel").length!=0 ){
         stagePadding:0,
         loop:false,
         margin:20,
-        items:4,
+        items:5,
         autoplayTimeout: 5000,
-        autoplay: true,
+        autoplay: false,
         nav:false,
+        dots: false,
         startPosition:1,
         responsive:{
             0:{
                 items:1,
                 stagePadding:90,
                 margin:10,
-                loop:true
+                loop:true,
+                dots: true
             },
-            767:{
-                items:4,
-                stagePadding:80,
-                margin:40
+            768:{
+                stagePadding:0,
+                loop:false,
+                margin:20,
+                items:3,
+                autoplay: true,
+                nav:false,
+                dots:true,
+                startPosition:1,
+                
+            },
+            1024:{
+                stagePadding:0,
+                loop:false,
+                margin:20,
+                items:5,
+                autoplay: false,
+                nav:false,
+                dots:false,
+                startPosition:1,
                 
             }
         }

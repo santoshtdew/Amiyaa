@@ -13151,7 +13151,7 @@ body {
     padding: 0 1.75439rem 0 0;
   }
   .inner-pg-content {
-    padding: 1.75439rem 0 3.33333rem 0;
+    padding: 7.01754rem 0 3.33333rem 0;
   }
   .inner-pg-content .about-right-img {
     height: 12.2807rem;
@@ -13173,7 +13173,7 @@ body {
   }
   .inner-pg-hed {
     position: fixed;
-    z-index: 10;
+    z-index: 1032;
     top: 0;
     left: 0;
     width: 100%;

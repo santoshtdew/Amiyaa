@@ -9,7 +9,7 @@
     .banner-sec{min-height:auto}
     .shape-fix{display: none;}
     .container-inner{padding:0 size(20) 0 0}
-    .inner-pg-content{padding:size(20) 0 size(38) 0;
+    .inner-pg-content{padding:size(80) 0 size(38) 0;
         .about-right-img{height:size(140);
             .bottm-shape{display:none;}
             .about-girl-bg{position: absolute;right:size(-50);top:size(-50);max-width:size(75);}
@@ -17,7 +17,7 @@
         }
     }
     .back-btn{display:inline-block;}
-    .inner-pg-hed{position:fixed;z-index:10;top:0;left:0;width:100%;background:$white;box-shadow:0 0 size(5) rgba(0,0,0,0.2);padding:size(18);text-align:center;margin:0;
+    .inner-pg-hed{position:fixed;z-index:1032;top:0;left:0;width:100%;background:$white;box-shadow:0 0 size(5) rgba(0,0,0,0.2);padding:size(18);text-align:center;margin:0;
         .heading-1{font-size: size(18);margin:0;}
     }
     .inner-pg-left-bg{display:none;}

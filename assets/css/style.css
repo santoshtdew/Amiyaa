@@ -12358,7 +12358,7 @@ body {
     left: 0;
     top: 0.17544rem;
     content: '';
-    background: url(/assets/images/tickicons.svg) no-repeat;
+    background: url(../images/tickicons.svg) no-repeat;
     background-size: cover;
     width: 2.10526rem;
     height: 2.10526rem;

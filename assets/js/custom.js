@@ -5,20 +5,20 @@ if($(".home-carousel").length!=0 ){
         loop:true,
         margin:40,
         items:1,
-        autoplayTimeout: 5000,
+        autoplayTimeout: 10000,
         autoplay: true,
         nav:false,
         startPosition:1,
         responsive:{
             0:{
                 items:1,
-                margin:20,
-                stagePadding: 50
+                margin:15,
+                stagePadding: 30
             },
             767:{
                 items:1,
-                margin:20,
-                stagePadding: 50
+                margin:15,
+                stagePadding: 30
                 
             },
             1000:{
@@ -31,18 +31,24 @@ if($(".cook-carousel").length!=0 ){
     $('.cook-carousel').owlCarousel({
         stagePadding:0,
         loop:false,
-        margin:20,
+        margin:35,
         items:5,
         autoplayTimeout: 5000,
         autoplay: false,
         nav:false,
         dots: false,
-        startPosition:1,
         responsive:{
             0:{
                 items:1,
                 stagePadding:90,
                 margin:10,
+                loop:true,
+                dots: true
+            },
+            414:{
+                items:1,
+                stagePadding:110,
+                margin:20,
                 loop:true,
                 dots: true
             },
@@ -53,7 +59,7 @@ if($(".cook-carousel").length!=0 ){
                 items:3,
                 autoplay: true,
                 nav:false,
-                dots:true,
+                dots:false,
                 startPosition:1,
                 
             },
@@ -61,12 +67,7 @@ if($(".cook-carousel").length!=0 ){
                 stagePadding:0,
                 loop:false,
                 margin:20,
-                items:5,
-                autoplay: false,
-                nav:false,
-                dots:false,
-                startPosition:1,
-                
+                items:5,               
             }
         }
     })
@@ -128,3 +129,63 @@ $('.txt-sec.mb .heading-3').click(function(){
 
 });
 
+
+window.onload = () => {
+    var acc = document.getElementsByClassName("accord_btn");
+      var i;
+    
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("active");
+          // if (panel.style.maxHeight) {
+          //   panel.style.maxHeight = null;
+          // } else {
+          //   panel.style.maxHeight = panel.scrollHeight + "px";
+          // } 
+        });
+      }
+      var acc_new = document.getElementsByClassName("accord_btn_sub");
+      var i;
+    
+      for (i = 0; i < acc_new.length; i++) {
+        acc_new[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("active");
+          // if (panel_sub.style.maxHeight) {
+          //   panel_sub.style.maxHeight = null;
+          // } else {
+          //   panel_sub.style.maxHeight = panel_sub.scrollHeight + "px";
+            
+          // } 
+        });
+      }
+    
+      var acc_brd = document.getElementsByClassName("accord_btn_border");
+      var i;
+    
+      for (i = 0; i < acc_brd.length; i++) {
+        acc_brd[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          this.nextElementSibling.classList.toggle("active");
+          // if (panel_sub.style.maxHeight) {
+          //   panel_sub.style.maxHeight = null;
+          // } else {
+          //   panel_sub.style.maxHeight = panel_sub.scrollHeight + "px";
+          // } 
+        });
+      }
+    
+    }
+    
+                jQuery(document).ready(function($) {
+                  $('.accord_carousel').owlCarousel({
+                    center: true,
+                    stagePadding: 60,
+                    items: 2,
+                    loop: true,
+                    margin: 20
+                   
+                  })
+                });
+         

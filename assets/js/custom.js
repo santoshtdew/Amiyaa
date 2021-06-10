@@ -198,6 +198,7 @@ window.onload = () => {
 function goBack() {
     window.history.back();
     }
+    
 // for app view hide header footer
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);

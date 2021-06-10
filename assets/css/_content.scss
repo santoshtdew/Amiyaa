@@ -169,10 +169,11 @@
 
 .cmnty-gud-mob-btm-sec{position: relative;display:none;text-align:center;
     .cmnty-gud-mob-btm-inner{display: flex;justify-content: center;min-height:size(180);}
-    .btm-img{max-width: size(240);}
+    .btm-img{max-width: size(250);margin:0 0 size(-50)}
     .cmnty-gud-icon-mob-btm-1{display:inline-block;width:size(62);height:size(62);left:size(25);top:size(0);position: absolute;z-index: 5;}
     .cmnty-gud-icon-mob-btm-2{display:inline-block;width:size(70);height:size(70);right:size(-5);bottom:size(0);position: absolute;z-index: 5;}
 }
+
 
 
 .priv-icon-left-1{position: absolute;width:size(80);height:size(45);display:inline-block;left:size(-10);top:0;background:$orange-color;border-radius: 0 size(10) 0 0;}
@@ -233,6 +234,7 @@
 .web-view{
     .inner-pg-hed, .main-navbar, .footer{display:none;}
     .inner-pg-content{padding:size(10) 0 0;}
+    .header-bg{ margin-top:size(10);}
 }
 
 

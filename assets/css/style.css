@@ -13361,7 +13361,8 @@ body {
 }
 
 .cmnty-gud-mob-btm-sec .btm-img {
-  max-width: 21.05263rem;
+  max-width: 21.92982rem;
+  margin: 0 0 -4.38596rem;
 }
 
 .cmnty-gud-mob-btm-sec .cmnty-gud-icon-mob-btm-1 {
@@ -13833,6 +13834,10 @@ body {
 
 .web-view .inner-pg-content {
   padding: 0.87719rem 0 0;
+}
+
+.web-view .header-bg {
+  margin-top: 0.87719rem;
 }
 
 .how_it_works .accord_btn {

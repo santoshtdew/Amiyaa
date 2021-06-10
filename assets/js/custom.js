@@ -182,10 +182,29 @@ window.onload = () => {
                   $('.accord_carousel').owlCarousel({
                     center: true,
                     stagePadding: 60,
-                    items: 2,
+                    items: 4,
                     loop: true,
-                    margin: 20
+                    margin: 20,
+                    responsive:{
+                        1000:{
+                            items:2
+                            
+                        }
+                    }
                    
                   })
                 });
-         
+               
+function goBack() {
+    window.history.back();
+    }
+// for app view hide header footer
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const appView = urlParams.get('appView');
+    console.log(appView);
+    if(appView == 'true'){
+        document.body.classList.add("web-view");
+    }
+
+    

@@ -12,6 +12,34 @@
         color:$primary-web;
     }
 }
+
+.tncmobilebottom{
+    position: relative;
+    height:size(80);
+    display: none;
+    .manimg{
+        width:size(180);
+        height:auto;
+        position: absolute;
+        bottom:size(-120);
+        right:size(-90);
+        z-index:2;
+    }
+    .tncshape1{
+        position: absolute;
+        bottom:0;
+        right:size(-70);
+        width:size(120);
+        height:auto;
+    }
+    .tncshape2{
+        position: absolute;
+        bottom:0;
+        left:size(30);
+        width:size(120);
+        height:auto;
+    }
+}
 .inner-pg-content .inner-pg-txt p strong.textcolor{
     color: #434142;
 }
@@ -532,6 +560,24 @@ padding:size(54) 0;
    min-height:size(400);
    max-width:size(1140);
    margin:0 auto;
+   .slide2{
+       .slideimg1{
+        width:size(486);
+        height:size(246);
+        position: absolute;
+        bottom:size(4);
+        right:size(60);
+        z-index:3;
+       }
+       .slideimg2{
+        width:size(304);
+        height:size(243);
+        position: absolute;
+        bottom:size(30);
+        left:size(80);
+        z-index:2;
+       }
+   } 
    .bannerwrap{
     position: relative;
    & img{
@@ -1608,13 +1654,26 @@ padding:size(54) 0;
         margin-bottom:size(10);
     }
     .banner-sec .bannerwrap .banner-innertext{
-        top:3%;
-        left:5%;
+        top:10%;
+        left:10%;
         right:30%; 
     }
     .banner-sec .bannerwrap .banner-innertext .paratext{
         font-size:size(11);
         padding-right:size(15);
+    }
+    .banner-sec .slide2 .slideimg1{
+        width:size(300);
+        height:auto;
+        bottom:size(4);
+        right:size(30)
+    }
+    .banner-sec .slide2 .slideimg2{
+        width:size(150);
+        height:auto;
+        bottom:0;
+        left:size(20);
+
     }
     .banner-sec .bannerwrap .banner-innertext .hdg{
         font-size:size(18);
@@ -1625,6 +1684,12 @@ padding:size(54) 0;
     .footer .copywrite{
         padding:size(20);
     }
+    .tncmobilebottom{
+        display: block;
+    }
+    .plmonly{
+        padding-right:8%!important;
+    }
 }
 
 @media(max-width:575px){
@@ -1633,6 +1698,26 @@ padding:size(54) 0;
         height: size(344);
     } 
 
+}
+@media(max-width:499px){
+    .banner-sec .slide2 .slideimg1{
+        width:size(200);
+        height:auto;
+        bottom:0;
+        right:size(20)
+    }
+    .banner-sec .slide2 .slideimg2{
+        width:size(100);
+        height:auto;
+        bottom:0;
+        left:size(20);
+
+    }
+    .banner-sec .bannerwrap .banner-innertext{
+        top:4%;
+        left:5%;
+        right:30%; 
+    }
 }
 // @media (max-width: 575.98px) {
 //     .library-sec {

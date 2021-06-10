@@ -10862,6 +10862,37 @@ body {
   color: #d64226;
 }
 
+.tncmobilebottom {
+  position: relative;
+  height: 7.01754rem;
+  display: none;
+}
+
+.tncmobilebottom .manimg {
+  width: 15.78947rem;
+  height: auto;
+  position: absolute;
+  bottom: -10.52632rem;
+  right: -7.89474rem;
+  z-index: 2;
+}
+
+.tncmobilebottom .tncshape1 {
+  position: absolute;
+  bottom: 0;
+  right: -6.14035rem;
+  width: 10.52632rem;
+  height: auto;
+}
+
+.tncmobilebottom .tncshape2 {
+  position: absolute;
+  bottom: 0;
+  left: 2.63158rem;
+  width: 10.52632rem;
+  height: auto;
+}
+
 .inner-pg-content .inner-pg-txt p strong.textcolor {
   color: #434142;
 }
@@ -11478,6 +11509,24 @@ body {
   min-height: 35.08772rem;
   max-width: 100rem;
   margin: 0 auto;
+}
+
+.banner-sec .slide2 .slideimg1 {
+  width: 42.63158rem;
+  height: 21.57895rem;
+  position: absolute;
+  bottom: 0.35088rem;
+  right: 5.26316rem;
+  z-index: 3;
+}
+
+.banner-sec .slide2 .slideimg2 {
+  width: 26.66667rem;
+  height: 21.31579rem;
+  position: absolute;
+  bottom: 2.63158rem;
+  left: 7.01754rem;
+  z-index: 2;
 }
 
 .banner-sec .bannerwrap {
@@ -12541,13 +12590,25 @@ body {
     margin-bottom: 0.87719rem;
   }
   .banner-sec .bannerwrap .banner-innertext {
-    top: 3%;
-    left: 5%;
+    top: 10%;
+    left: 10%;
     right: 30%;
   }
   .banner-sec .bannerwrap .banner-innertext .paratext {
     font-size: 0.96491rem;
     padding-right: 1.31579rem;
+  }
+  .banner-sec .slide2 .slideimg1 {
+    width: 26.31579rem;
+    height: auto;
+    bottom: 0.35088rem;
+    right: 2.63158rem;
+  }
+  .banner-sec .slide2 .slideimg2 {
+    width: 13.15789rem;
+    height: auto;
+    bottom: 0;
+    left: 1.75439rem;
   }
   .banner-sec .bannerwrap .banner-innertext .hdg {
     font-size: 1.57895rem;
@@ -12558,12 +12619,38 @@ body {
   .footer .copywrite {
     padding: 1.75439rem;
   }
+  .tncmobilebottom {
+    display: block;
+  }
+  .plmonly {
+    padding-right: 8% !important;
+  }
 }
 
 @media (max-width: 575px) {
   .cook-carousel.owl-carousel .owl-item .slide1 img {
     width: 15.08772rem;
     height: 30.17544rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .banner-sec .slide2 .slideimg1 {
+    width: 17.54386rem;
+    height: auto;
+    bottom: 0;
+    right: 1.75439rem;
+  }
+  .banner-sec .slide2 .slideimg2 {
+    width: 8.77193rem;
+    height: auto;
+    bottom: 0;
+    left: 1.75439rem;
+  }
+  .banner-sec .bannerwrap .banner-innertext {
+    top: 4%;
+    left: 5%;
+    right: 30%;
   }
 }
 
@@ -12614,8 +12701,10 @@ body {
 .inner-pg-content .about-right-img .abt_footer_mob {
   display: none;
   position: absolute;
-  left: -2.63158rem;
-  bottom: 0rem;
+  left: 35%;
+  bottom: -0.17544rem;
+  width: 8.77193rem;
+  height: 5.70175rem;
 }
 
 .inner-pg-content .btn-link {
@@ -12684,7 +12773,7 @@ body {
 }
 
 .about-iocn-left-1 {
-  width: 7.01754rem;
+  width: 7.89474rem;
   height: 3.94737rem;
   left: -14.03509rem;
   top: -4.38596rem;
@@ -12772,10 +12861,20 @@ body {
 .abt-rgt-mob-icon-2 {
   width: 5.26316rem;
   height: 5.26316rem;
-  background: url("../images/abt_right_mob_icon_2.png") no-repeat 0 0/60px;
   right: -4.73684rem;
   position: absolute;
   top: 0rem;
+  display: none;
+}
+
+.abt-btm-mob-icon-1 {
+  width: 5.26316rem;
+  height: 5.52632rem;
+  left: -2.63158rem;
+  position: absolute;
+  bottom: 0;
+  background: #ffcd26;
+  border-radius: 0 0.52632rem 0 0;
   display: none;
 }
 
@@ -13019,11 +13118,11 @@ body {
 }
 
 .faq-pg .accordion .btn-link {
-  font-size: 0.96491rem;
+  font-size: 1.14035rem;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;
-  line-height: 1.31579rem;
+  line-height: 1.57895rem;
   font-weight: 700;
   color: #D44327;
   margin: 0 0 0.26316rem;
@@ -13031,10 +13130,14 @@ body {
 }
 
 .faq-pg .accordion p {
-  font-size: 0.96491rem;
-  line-height: 1.31579rem;
+  font-size: 1.14035rem;
+  line-height: 1.57895rem;
   margin: 0;
   color: #000;
+}
+
+.faq-pg .inner-pg-hed .heading-1 {
+  font-size: 2.10526rem;
 }
 
 /**privacy csss*/
@@ -13093,8 +13196,8 @@ body {
   position: absolute;
   right: -14.91228rem;
   top: 13.15789rem;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   display: inline-block;
   background: #f6921e;
   border-radius: 0.87719rem 0 0 0;
@@ -13132,8 +13235,8 @@ body {
   position: absolute;
   left: 20px;
   top: 13.15789rem;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   display: inline-block;
   background: #ffcd26;
   border-radius: 0.87719rem 0 0 0;
@@ -13220,8 +13323,6 @@ body {
   left: calc(100vw - 100px);
   top: -6.14035rem;
   position: absolute;
-  background: #ffcd26;
-  border-radius: 0 0 0 0.52632rem;
 }
 
 .cmnty-gud-icon-mob-rgt-3 {
@@ -13231,8 +13332,6 @@ body {
   right: -4.82456rem;
   top: -1.75439rem;
   position: absolute;
-  background: #ffcd26;
-  border-radius: 0 0 0 0.52632rem;
 }
 
 .cmnty-gud-icon-mob-rgt-4 {
@@ -13242,8 +13341,6 @@ body {
   right: -5.26316rem;
   top: -4.38596rem;
   position: absolute;
-  background: #ffcd26;
-  border-radius: 0 0 0 0.52632rem;
 }
 
 .cmnty-gud-mob-btm-sec {
@@ -13329,8 +13426,8 @@ body {
 
 .priv-icon-rgt-1 {
   position: absolute;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   display: inline-block;
   right: 14%;
   top: -0.4386rem;
@@ -13540,8 +13637,8 @@ body {
 
 .faq-icon-rgt-1 {
   display: inline-block;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   right: -3.50877rem;
   position: absolute;
   top: -0.4386rem;
@@ -13551,8 +13648,8 @@ body {
 
 .faq-icon-rgt-2 {
   display: inline-block;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   right: -14.03509rem;
   position: absolute;
   bottom: 5.70175rem;
@@ -13571,8 +13668,8 @@ body {
 
 .faq-icon-rgt-4 {
   display: inline-block;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   right: -9.64912rem;
   position: absolute;
   top: 4.38596rem;
@@ -13582,8 +13679,8 @@ body {
 
 .faq-icon-rgt-5 {
   display: inline-block;
-  width: 3.50877rem;
-  height: 3.50877rem;
+  width: 3.94737rem;
+  height: 3.94737rem;
   right: -33.33333rem;
   position: absolute;
   top: 7.01754rem;
@@ -13729,9 +13826,12 @@ body {
   text-decoration: underline;
 }
 
-.how_it_works .container-inner {
-  max-width: 750px;
-  margin: 0 auto;
+.web-view .inner-pg-hed, .web-view .main-navbar, .web-view .footer {
+  display: none;
+}
+
+.web-view .inner-pg-content {
+  padding: 0.87719rem 0 0;
 }
 
 .how_it_works .accord_btn {
@@ -14039,6 +14139,47 @@ body {
   }
 }
 
+.how_it_works .faq-icon-rgt-2 {
+  right: 0;
+  top: 0;
+  left: auto;
+}
+
+.how_it_works .faq-icon-lft-2 {
+  top: -6.14035rem;
+}
+
+.how_it_works .faq-icon-lft-2.inner-1 {
+  left: 0;
+  width: 3.94737rem;
+  height: 3.94737rem;
+}
+
+.how_it_works .faq-icon-rgt-3 {
+  right: -13.15789rem;
+  top: -7.01754rem;
+}
+
+.how_it_works .faq-icon-rgt-1 {
+  right: 10%;
+  top: 0;
+}
+
+.how_it_works .faq-icon-rgt-10 {
+  right: 0;
+  top: 0;
+}
+
+.how_it_works .faq-icon-lft-5 {
+  left: 0;
+}
+
+.how_it_works .priv-icon-rgt-4 {
+  right: 0;
+  top: auto;
+  bottom: 0;
+}
+
 @media (max-width: 767.98px) {
   html {
     font-size: 12px;
@@ -14076,6 +14217,9 @@ body {
   .back-btn {
     display: inline-block;
   }
+  .faq-pg .inner-pg-hed .heading-1 {
+    font-size: 1.57895rem;
+  }
   .inner-pg-hed {
     position: fixed;
     z-index: 1032;
@@ -14112,6 +14256,9 @@ body {
   }
   .abt-rgt-mob-icon-2 {
     display: block;
+  }
+  .abt-btm-mob-icon-1 {
+    display: inline-block;
   }
   .do-donot-sec {
     margin: 0;

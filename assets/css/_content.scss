@@ -103,7 +103,7 @@
           p{font-size: size(11);line-height:size(15);margin:0;color:$black;}
       }
   .faq-banner-img{position: relative;text-align:center;margin:0 0 size(30);
-   img{max-width: 100%;}
+   img{max-width: 100%;width:size(400)}
 }
   .order-list{list-style: decimal;margin:0 0 size(15);padding: 0 0 0 size(15);
     & > li{font-size: size(11);line-height: size(15);color:$black;}

@@ -13089,6 +13089,7 @@ body {
 
 .faq-pg .faq-banner-img img {
   max-width: 100%;
+  width: 35.08772rem;
 }
 
 .faq-pg .order-list {
@@ -14402,6 +14403,9 @@ body {
   }
   .faq-pg .faq-sec {
     padding: 0 0 2.63158rem;
+  }
+  .faq-pg .faq-banner-img img {
+    width: auto;
   }
 }
 

@@ -11066,7 +11066,7 @@ body {
 }
 
 .header-bg .header-shape6 {
-  bottom: 5.78947rem;
+  bottom: 5.26316rem;
   left: 8%;
 }
 
@@ -11428,7 +11428,7 @@ body {
 
 .term-n-condition-sec .term-n-condition-shape1 {
   right: 15%;
-  top: -3.50877rem;
+  top: -2.63158rem;
   height: 4.64912rem;
   width: 4.64912rem;
 }
@@ -11477,7 +11477,7 @@ body {
   margin-left: -1.75439rem;
 }
 
-.home-carousel.owl-carousel.owl-theme .owl-dots, .cook-carousel.owl-carousel.owl-theme .owl-dots {
+.home-carousel.owl-carousel.owl-theme .owl-dots, .cook-carousel.owl-carousel.owl-theme .owl-dots, .accord_carousel.owl-carousel.owl-theme .owl-dots {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11486,14 +11486,14 @@ body {
           justify-content: center;
 }
 
-.home-carousel.owl-carousel.owl-theme .owl-dots .owl-dot span, .cook-carousel.owl-carousel.owl-theme .owl-dots .owl-dot span {
+.home-carousel.owl-carousel.owl-theme .owl-dots .owl-dot span, .cook-carousel.owl-carousel.owl-theme .owl-dots .owl-dot span, .accord_carousel.owl-carousel.owl-theme .owl-dots .owl-dot span {
   background: #fff;
   border: 0.08772rem solid #d64226;
   width: 0.87719rem;
   height: 0.87719rem;
 }
 
-.home-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span, .cook-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
+.home-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span, .cook-carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span, .accord_carousel.owl-carousel.owl-theme .owl-dots .owl-dot.active span {
   background: #d64226;
   width: 1.22807rem;
   height: 1.22807rem;
@@ -12095,6 +12095,9 @@ body {
 }
 
 @media (max-width: 767px) {
+  .how_it_works .accord_btn_sub {
+    width: calc(100% - 10px) !important;
+  }
   .navbar.main-navbar {
     height: 5.26316rem;
   }
@@ -12632,6 +12635,12 @@ body {
   .cook-carousel.owl-carousel .owl-item .slide1 img {
     width: 15.08772rem;
     height: 30.17544rem;
+  }
+  .how_it_works .accor_img img {
+    max-width: 10.52632rem !important;
+  }
+  .accord_carousel.owl-carousel .owl-item .item img {
+    max-width: 10.52632rem;
   }
 }
 

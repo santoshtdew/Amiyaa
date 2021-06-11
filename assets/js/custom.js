@@ -73,7 +73,30 @@ if($(".cook-carousel").length!=0 ){
         }
     })
 }
-
+if($(".accord_carousel").length!=0 ){
+    $('.accord_carousel').owlCarousel({
+      center: true,
+      stagePadding: 60,
+      items: 4,
+      loop: true,
+      margin:15,
+      dots:true,
+      responsive:{
+          0:{
+              items:1,
+              stagePadding:90,
+              margin:10,
+              loop:true,
+              dots: true
+          },
+          1000:{
+              items:2,
+              
+          }
+      }
+     
+    })
+  } 
 
 $(function(){
     $('.menu-humberger').on('click',function(e){
@@ -179,22 +202,7 @@ window.onload = () => {
     
     }
     
-                jQuery(document).ready(function($) {
-                  $('.accord_carousel').owlCarousel({
-                    center: true,
-                    stagePadding: 60,
-                    items: 4,
-                    loop: true,
-                    margin: 20,
-                    responsive:{
-                        1000:{
-                            items:2
-                            
-                        }
-                    }
-                   
-                  })
-                });
+
                
 function goBack() {
     window.history.back();

@@ -45,7 +45,7 @@
 .abt-left-mob-icon-1{width:size(15);height:size(30);left:size(-30);position: absolute;top:0;background:$yellow-color-1;border-radius: 0 size(6) 0 0;}
 .abt-left-mob-icon-2{width:size(15);height:size(30);left:size(-30);position: absolute;top:0;background:$orange-color;border-radius: 0 size(6) 0 0;}
 .abt-rgt-mob-icon-1{width:size(60);height:size(30);right:size(-60);position: absolute;top:size(-30);background:$yellow-color-1;border-radius:size(6) 0 0 0;}
-.abt-rgt-mob-icon-2{width:size(60); height:size(60);right:size(-54);position: absolute;top:size(0);display:none;}
+.abt-rgt-mob-icon-2{width:size(60); height:size(60);right:size(-60);position: absolute;top:size(0);display:none;}
 
 .abt-btm-mob-icon-1{width:size(60);height:size(63);left:size(-30);position: absolute;bottom:0;background:$yellow-color-1;border-radius: 0 size(6) 0 0;display: none;}
 /*commiunity guide css*/
@@ -62,11 +62,11 @@
         p{font-size:size(16);line-height: size(18);margin:0;font-weight:$font-weight-normal;color:$color-dark-grey}
     }
 .comnuty-guid-mob-banner{
-    img{width:100%;max-width: 100%;}
+    img{width:140%;margin:-10% 0 -20% -20%;}
 }
    }
 .comunty-right-img{position: relative;padding:0;
-    img{max-width:100%;}
+    img{width:size(500);margin:0 0 0 size(-50);}
     
 }
 .do-donot-sec{margin:size(30) 0;
@@ -120,6 +120,7 @@
        .card-body{padding:0;}
        .btn-link{font-size: size(13);outline:none;box-shadow:none;line-height:size(18);font-weight: $font-weight-bold;color:$orange-color-2;margin:0 0 size(3);text-decoration: none;} 
        p{font-size: size(13);line-height:size(18);margin:0;color:$black;}
+       .collapse:not(.show){display:block;}
     }
     .inner-pg-hed{
         .heading-1{font-size:size(24);}
@@ -176,14 +177,14 @@
 
 
 
-.priv-icon-left-1{position: absolute;width:size(80);height:size(45);display:inline-block;left:size(-10);top:0;background:$orange-color;border-radius: 0 size(10) 0 0;}
-.priv-icon-left-2{position: absolute;width:size(100);height:size(150);display:inline-block;left:-26%;top:size(40);}
-.priv-icon-left-3{position: absolute;width:size(50);height:size(50);display:inline-block;left:-17%;top:size(0);background:$yellow-color-1;border-radius:0 size(10) 0 0;}
+.priv-icon-left-1{position: absolute;width:size(80);height:size(45);display:inline-block;left:size(-10);top:size(-5);background:$orange-color;border-radius: 0 size(10) 0 0;}
+.priv-icon-left-2{position: absolute;width:size(100);height:size(150);display:inline-block;left:size(-180);top:size(40);}
+.priv-icon-left-3{position: absolute;width:size(50);height:size(50);display:inline-block;left:size(-145);top:size(0);background:$yellow-color-1;border-radius:0 size(10) 0 0;}
 .priv-icon-left-4{position: absolute;width:size(30);height:size(50);display:inline-block;left:-27%;top:size(0);background:$orange-color-2;}
 .priv-icon-rgt-1{position: absolute;width:size(45);height:size(45);display:inline-block;right:14%;top:size(-5);background:$yellow-color-1;border-radius:size(10) 0 0 0;}
-.priv-icon-rgt-2{position: absolute;width:size(80);height:size(80);display:inline-block;right:-50%;top:size(-10)}
-.priv-icon-rgt-3{position: absolute;width:size(140);height:size(80);display:inline-block;right:-45%;top:size(0);}
-.priv-icon-rgt-4{position: absolute;width:size(80);height:size(80);display:inline-block;right:-50%;top:size(0);}
+.priv-icon-rgt-2{position: absolute;width:size(95);height:size(95);display:inline-block;right:-50%;top:size(-10)}
+.priv-icon-rgt-3{position: absolute;width:size(140);height:size(80);display:inline-block;right:size(-287);top:size(0);}
+.priv-icon-rgt-4{position: absolute;width:size(90);height:size(90);display:inline-block;right:size(-325);top:size(0);}
 .priv-icon-mob-left-1{display:inline-block;width:size(15);height:size(30);left:0;position: absolute;top:size(5);background:$yellow-color-1;border-radius: 0 size(6) 0 0;}
 .priv-icon-mob-left-2{display:inline-block;width:size(15);height:size(30);left:size(-32);position: absolute;top:size(-34);background:$orange-color;border-radius: 0 size(6) 0 0;}
 .priv-icon-mob-left-3{display:inline-block;width:size(30);height:size(30);left:size(-50);position: absolute;top:size(10);background:$yellow-color-1;border-radius: 0 0 size(6) 0;}
@@ -206,22 +207,22 @@
     .priv-icon-mob-btm-4{display:inline-block;width:size(90);height:size(60);left:25%;position: absolute;bottom:0;}
     .priv-icon-mob-btm-5{display:inline-block;width:size(110);height:size(110);right:0;position: absolute;bottom:0;background:$yellow-color-1;border-radius: size(10) 0 0 0;}
 }
-.faq-icon-rgt-1{display:inline-block;width:size(45);height:size(45);right:size(-40);position: absolute;top:size(-5);background: $yellow-color-1;border-radius:size(10) 0 0 0;}
+.faq-icon-rgt-1{display:inline-block;width:size(45);height:size(45);right:size(-30);position: absolute;top:size(-5);background: $yellow-color-1;border-radius:size(10) 0 0 0;}
 .faq-icon-rgt-2{display:inline-block;width:size(45);height:size(45);right:size(-160);position: absolute;bottom:size(65);background:$orange-color-1;border-radius:size(10) 0 0 0;}
-.faq-icon-rgt-3{display:inline-block;width:size(130);height:size(80);right:size(-285);position: absolute;top:size(27);}
-.faq-icon-rgt-4{display:inline-block;width:size(45);height:size(45);right:size(-160);position: absolute;top:size(50);background:$orange-color-1;border-radius:0 size(10) 0 0;}
-.faq-icon-rgt-5{display:inline-block;width:size(45);height:size(45);right:size(-368);position: absolute;top:size(80);background: $yellow-color-1;border-radius:0 0 size(10) 0;}
-.faq-icon-rgt-6{display:inline-block;width:size(80);height:size(130);right:size(-180);position: absolute;top:size(90);}
-.faq-icon-rgt-7{display:inline-block;width:size(80);height:size(45);right:size(-460);position: absolute;top:size(-10);background:$orange-color-1;border-radius:size(10) 0 0 0;}
-.faq-icon-rgt-8{display:inline-block;width:size(40);height:size(40);right:size(-180);position: absolute;top:size(-10);background: $yellow-color-1;border-radius:0 size(10) 0 0;}
-.faq-icon-rgt-9{display:inline-block;width:size(40);height:size(40);right:size(-120);position: absolute;top:size(-10);background:$orange-color-1;border-radius:0 0 0 size(10);}
-.faq-icon-rgt-10{display:inline-block;width:size(40);height:size(90);right:size(-433);position: absolute;top:size(-10);background: $primary-web;border-radius:0 size(10) 0 size(10);}
+.faq-icon-rgt-3{display:inline-block;width:size(145);height:size(90);right:size(-347);position: absolute;top:size(27);}
+.faq-icon-rgt-4{display:inline-block;width:size(45);height:size(45);right:size(-207);position: absolute;top:size(50);background:$orange-color-1;border-radius:0 size(10) 0 0;}
+.faq-icon-rgt-5{display:inline-block;width:size(45);height:size(45);right:size(-387);position: absolute;top:size(80);background: $yellow-color-1;border-radius:0 0 size(10) 0;}
+.faq-icon-rgt-6{display:inline-block;width:size(80);height:size(130);right:size(-297);position: absolute;top:size(90);}
+.faq-icon-rgt-7{display:inline-block;width:size(80);height:size(45);right:size(-505);position: absolute;top:size(-10);background:$orange-color-1;border-radius:size(10) 0 0 0;}
+.faq-icon-rgt-8{display:inline-block;width:size(40);height:size(40);right:size(-220);position: absolute;top:size(-10);background: $yellow-color-1;border-radius:0 size(10) 0 0;}
+.faq-icon-rgt-9{display:inline-block;width:size(40);height:size(40);right:size(-170);position: absolute;top:size(-10);background:$orange-color-1;border-radius:0 0 0 size(10);}
+.faq-icon-rgt-10{display:inline-block;width:size(40);height:size(90);right:size(-472);position: absolute;top:size(-10);background: $primary-web;border-radius:0 size(10) 0 size(10);}
 
-.faq-icon-lft-1{display:inline-block;width:size(82);height:size(45);left:size(-175);position: absolute;top:size(-5);background: $yellow-color-1;border-radius: 0 size(10) 0 0;}
-.faq-icon-lft-2{display:inline-block;width:size(100);height:size(110);left:size(-180);position: absolute;top:size(-10);}
-.faq-icon-lft-3{display:inline-block;width:size(90);height:size(90);left:size(-170);position: absolute;top:size(50);}
-.faq-icon-lft-4{display:inline-block;width:size(50);height:size(50);left:size(-170);position: absolute;top:size(120);background:$primary-web;border-radius: 0 size(10) 0 0;}
-.faq-icon-lft-5{display:inline-block;width:size(40);height:size(40);left:size(-80);position: absolute;top:size(60);}
+.faq-icon-lft-1{display:inline-block;width:size(90);height:size(45);left:size(-175);position: absolute;top:size(-5);background: $yellow-color-1;border-radius: 0 size(10) 0 0;}
+.faq-icon-lft-2{display:inline-block;width:size(100);height:size(110);left:size(-172);position: absolute;top:size(-10);}
+.faq-icon-lft-3{display:inline-block;width:size(90);height:size(90);left:size(-175);position: absolute;top:size(120);}
+.faq-icon-lft-4{display:inline-block;width:size(50);height:size(50);left:size(-180);position: absolute;top:size(150);background:$primary-web;border-radius: 0 size(10) 0 0;}
+.faq-icon-lft-5{display:inline-block;width:size(40);height:size(40);left:size(-130);position: absolute;top:size(60);}
 
 .faq-icon-mob-1{display:inline-block;width:size(40);height:size(40);left:size(-15);position: absolute;top:size(5);background: $yellow-color-1;border-radius: 0 size(10) 0 0;}
 .faq-icon-mob-2{display:inline-block;width:size(80);height:size(40);right:size(-10);position: absolute;top:size(65);background: $orange-color-1;border-radius: size(10) 0  0 0;}
@@ -236,8 +237,6 @@
     .inner-pg-content{padding:size(10) 0 0;}
     .header-bg{ margin-top:size(10);}
 }
-
-
 
 
 

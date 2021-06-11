@@ -81,6 +81,8 @@
               &.show{background:#fafafa;}
             }
            }
+           .collapse:not(.show){display:none;}
         }
+        .faq-sec{padding:0 0 size(30);}
     }
 }

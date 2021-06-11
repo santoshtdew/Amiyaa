@@ -11547,6 +11547,7 @@ body {
 .banner-sec .bannerwrap .banner-innertext .paratext {
   font-size: 1.57895rem;
   color: #174866;
+  line-height: 1.5;
 }
 
 .banner-sec .bannerwrap .banner-innertext .hdg {
@@ -12600,7 +12601,8 @@ body {
   }
   .banner-sec .bannerwrap .banner-innertext .paratext {
     font-size: 0.96491rem;
-    padding-right: 1.31579rem;
+    padding-right: 4.38596rem;
+    line-height: 1.4;
   }
   .banner-sec .slide2 .slideimg1 {
     width: 26.31579rem;
@@ -12615,7 +12617,7 @@ body {
     left: 1.75439rem;
   }
   .banner-sec .bannerwrap .banner-innertext .hdg {
-    font-size: 1.40351rem;
+    font-size: 1.31579rem;
   }
   .footer .footercontent {
     padding: 2.19298rem;
@@ -12649,7 +12651,7 @@ body {
     width: 17.54386rem;
     height: auto;
     bottom: 0;
-    right: 1.75439rem;
+    right: 0.4386rem;
   }
   .banner-sec .slide2 .slideimg2 {
     width: 8.77193rem;
@@ -12871,7 +12873,7 @@ body {
 .abt-rgt-mob-icon-2 {
   width: 5.26316rem;
   height: 5.26316rem;
-  right: -4.73684rem;
+  right: -5.26316rem;
   position: absolute;
   top: 0rem;
   display: none;
@@ -12945,8 +12947,8 @@ body {
 }
 
 .comnuty-guid-top-mob .comnuty-guid-mob-banner img {
-  width: 100%;
-  max-width: 100%;
+  width: 140%;
+  margin: -10% 0 -20% -20%;
 }
 
 .comunty-right-img {
@@ -12955,7 +12957,8 @@ body {
 }
 
 .comunty-right-img img {
-  max-width: 100%;
+  width: 43.85965rem;
+  margin: 0 0 0 -4.38596rem;
 }
 
 .do-donot-sec {
@@ -13144,6 +13147,10 @@ body {
   line-height: 1.57895rem;
   margin: 0;
   color: #000;
+}
+
+.faq-pg .accordion .collapse:not(.show) {
+  display: block;
 }
 
 .faq-pg .inner-pg-hed .heading-1 {
@@ -13400,7 +13407,7 @@ body {
   height: 3.94737rem;
   display: inline-block;
   left: -0.87719rem;
-  top: 0;
+  top: -0.4386rem;
   background: #ed8012;
   border-radius: 0 0.87719rem 0 0;
 }
@@ -13410,7 +13417,7 @@ body {
   width: 8.77193rem;
   height: 13.15789rem;
   display: inline-block;
-  left: -26%;
+  left: -15.78947rem;
   top: 3.50877rem;
 }
 
@@ -13419,7 +13426,7 @@ body {
   width: 4.38596rem;
   height: 4.38596rem;
   display: inline-block;
-  left: -17%;
+  left: -12.7193rem;
   top: 0rem;
   background: #ffcd26;
   border-radius: 0 0.87719rem 0 0;
@@ -13448,8 +13455,8 @@ body {
 
 .priv-icon-rgt-2 {
   position: absolute;
-  width: 7.01754rem;
-  height: 7.01754rem;
+  width: 8.33333rem;
+  height: 8.33333rem;
   display: inline-block;
   right: -50%;
   top: -0.87719rem;
@@ -13460,16 +13467,16 @@ body {
   width: 12.2807rem;
   height: 7.01754rem;
   display: inline-block;
-  right: -45%;
+  right: -25.17544rem;
   top: 0rem;
 }
 
 .priv-icon-rgt-4 {
   position: absolute;
-  width: 7.01754rem;
-  height: 7.01754rem;
+  width: 7.89474rem;
+  height: 7.89474rem;
   display: inline-block;
-  right: -50%;
+  right: -28.50877rem;
   top: 0rem;
 }
 
@@ -13650,7 +13657,7 @@ body {
   display: inline-block;
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -3.50877rem;
+  right: -2.63158rem;
   position: absolute;
   top: -0.4386rem;
   background: #ffcd26;
@@ -13670,9 +13677,9 @@ body {
 
 .faq-icon-rgt-3 {
   display: inline-block;
-  width: 11.40351rem;
-  height: 7.01754rem;
-  right: -25rem;
+  width: 12.7193rem;
+  height: 7.89474rem;
+  right: -30.4386rem;
   position: absolute;
   top: 2.36842rem;
 }
@@ -13681,7 +13688,7 @@ body {
   display: inline-block;
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -14.03509rem;
+  right: -18.15789rem;
   position: absolute;
   top: 4.38596rem;
   background: #f6921e;
@@ -13692,7 +13699,7 @@ body {
   display: inline-block;
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -32.2807rem;
+  right: -33.94737rem;
   position: absolute;
   top: 7.01754rem;
   background: #ffcd26;
@@ -13703,7 +13710,7 @@ body {
   display: inline-block;
   width: 7.01754rem;
   height: 11.40351rem;
-  right: -15.78947rem;
+  right: -26.05263rem;
   position: absolute;
   top: 7.89474rem;
 }
@@ -13712,7 +13719,7 @@ body {
   display: inline-block;
   width: 7.01754rem;
   height: 3.94737rem;
-  right: -40.35088rem;
+  right: -44.29825rem;
   position: absolute;
   top: -0.87719rem;
   background: #f6921e;
@@ -13723,7 +13730,7 @@ body {
   display: inline-block;
   width: 3.50877rem;
   height: 3.50877rem;
-  right: -15.78947rem;
+  right: -19.29825rem;
   position: absolute;
   top: -0.87719rem;
   background: #ffcd26;
@@ -13734,7 +13741,7 @@ body {
   display: inline-block;
   width: 3.50877rem;
   height: 3.50877rem;
-  right: -10.52632rem;
+  right: -14.91228rem;
   position: absolute;
   top: -0.87719rem;
   background: #f6921e;
@@ -13745,7 +13752,7 @@ body {
   display: inline-block;
   width: 3.50877rem;
   height: 7.89474rem;
-  right: -37.98246rem;
+  right: -41.40351rem;
   position: absolute;
   top: -0.87719rem;
   background: #d64226;
@@ -13754,7 +13761,7 @@ body {
 
 .faq-icon-lft-1 {
   display: inline-block;
-  width: 7.19298rem;
+  width: 7.89474rem;
   height: 3.94737rem;
   left: -15.35088rem;
   position: absolute;
@@ -13767,7 +13774,7 @@ body {
   display: inline-block;
   width: 8.77193rem;
   height: 9.64912rem;
-  left: -15.78947rem;
+  left: -15.08772rem;
   position: absolute;
   top: -0.87719rem;
 }
@@ -13776,18 +13783,18 @@ body {
   display: inline-block;
   width: 7.89474rem;
   height: 7.89474rem;
-  left: -14.91228rem;
+  left: -15.35088rem;
   position: absolute;
-  top: 4.38596rem;
+  top: 10.52632rem;
 }
 
 .faq-icon-lft-4 {
   display: inline-block;
   width: 4.38596rem;
   height: 4.38596rem;
-  left: -14.91228rem;
+  left: -15.78947rem;
   position: absolute;
-  top: 10.52632rem;
+  top: 13.15789rem;
   background: #d64226;
   border-radius: 0 0.87719rem 0 0;
 }
@@ -13796,7 +13803,7 @@ body {
   display: inline-block;
   width: 3.50877rem;
   height: 3.50877rem;
-  left: -7.01754rem;
+  left: -11.40351rem;
   position: absolute;
   top: 5.26316rem;
 }
@@ -14389,6 +14396,12 @@ body {
   }
   .faq-pg .accordion > .card .collapse.show {
     background: #fafafa;
+  }
+  .faq-pg .accordion .collapse:not(.show) {
+    display: none;
+  }
+  .faq-pg .faq-sec {
+    padding: 0 0 2.63158rem;
   }
 }
 

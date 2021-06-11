@@ -10928,7 +10928,7 @@ body {
 
 .navbar.main-navbar {
   font-size: 1.05263rem;
-  height: 80px;
+  height: 7.01754rem;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   padding: 0;
@@ -12096,7 +12096,7 @@ body {
 
 @media (max-width: 767px) {
   .navbar.main-navbar {
-    height: 60px;
+    height: 5.26316rem;
   }
   .cook-today-sec .cook-shape10 {
     top: 6.14035rem;
@@ -12612,7 +12612,7 @@ body {
     left: 1.75439rem;
   }
   .banner-sec .bannerwrap .banner-innertext .hdg {
-    font-size: 1.57895rem;
+    font-size: 1.40351rem;
   }
   .footer .footercontent {
     padding: 2.19298rem;
@@ -12787,15 +12787,15 @@ body {
 .about-iocn-left-2 {
   width: 7.01754rem;
   height: 11.40351rem;
-  left: -13.59649rem;
-  top: -2.63158rem;
+  left: -13.15789rem;
+  top: -3.94737rem;
   position: absolute;
 }
 
 .about-iocn-rgt-1 {
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -4.82456rem;
+  right: -3.77193rem;
   top: -0.4386rem;
   position: absolute;
   background: #ffcd26;
@@ -12806,7 +12806,7 @@ body {
   width: 3.94737rem;
   height: 3.94737rem;
   right: -14.03509rem;
-  top: 13.15789rem;
+  top: 12.7193rem;
   position: absolute;
   background: #f6921e;
   border-radius: 0.87719rem 0 0 0;
@@ -12889,7 +12889,7 @@ body {
 }
 
 .comnuty-guid-tilte {
-  margin: 0 0 3.50877rem;
+  margin: 0 0 2.63158rem;
   color: #d64226;
   position: relative;
 }
@@ -12942,7 +12942,7 @@ body {
 
 .comunty-right-img {
   position: relative;
-  padding: 0 0 0 10%;
+  padding: 0;
 }
 
 .comunty-right-img img {
@@ -13206,7 +13206,7 @@ body {
 
 .cmnty-gud-icon-rgt-2 {
   position: absolute;
-  top: 0;
+  top: 2.36842rem;
   left: -0.87719rem;
   width: 3.94737rem;
   height: 3.94737rem;
@@ -13216,8 +13216,8 @@ body {
 
 .cmnty-gud-icon-rgt-3 {
   position: absolute;
-  right: -1.75439rem;
-  top: 12.2807rem;
+  right: -1.31579rem;
+  top: 19.73684rem;
   width: 7.01754rem;
   height: 7.01754rem;
   display: inline-block;
@@ -13226,16 +13226,16 @@ body {
 .cmnty-gud-icon-rgt-4 {
   position: absolute;
   left: 200px;
-  top: 0;
-  width: 10.52632rem;
-  height: 7.01754rem;
+  top: 2.89474rem;
+  width: 12.2807rem;
+  height: 8.77193rem;
   display: inline-block;
 }
 
 .cmnty-gud-icon-rgt-5 {
   position: absolute;
-  left: 20px;
-  top: 13.15789rem;
+  left: 17px;
+  top: 15.78947rem;
   width: 3.94737rem;
   height: 3.94737rem;
   display: inline-block;
@@ -13245,17 +13245,17 @@ body {
 
 .cmnty-gud-icon-left-1 {
   position: absolute;
-  width: 7.89474rem;
+  width: 8.77193rem;
   height: 4.38596rem;
   display: inline-block;
   left: -1.75439rem;
-  top: 4.38596rem;
+  top: 6.14035rem;
 }
 
 .cmnty-gud-icon-left-2 {
   position: absolute;
   left: 0;
-  top: 4.38596rem;
+  top: 11.40351rem;
   background: #d64226;
   width: 2.63158rem;
   height: 4.38596rem;
@@ -13663,16 +13663,16 @@ body {
   display: inline-block;
   width: 11.40351rem;
   height: 7.01754rem;
-  right: -21.05263rem;
+  right: -25rem;
   position: absolute;
-  top: 4.38596rem;
+  top: 2.36842rem;
 }
 
 .faq-icon-rgt-4 {
   display: inline-block;
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -9.64912rem;
+  right: -14.03509rem;
   position: absolute;
   top: 4.38596rem;
   background: #f6921e;
@@ -13683,7 +13683,7 @@ body {
   display: inline-block;
   width: 3.94737rem;
   height: 3.94737rem;
-  right: -33.33333rem;
+  right: -32.2807rem;
   position: absolute;
   top: 7.01754rem;
   background: #ffcd26;
@@ -13745,11 +13745,11 @@ body {
 
 .faq-icon-lft-1 {
   display: inline-block;
-  width: 7.89474rem;
+  width: 7.19298rem;
   height: 3.94737rem;
-  left: -14.91228rem;
+  left: -15.35088rem;
   position: absolute;
-  top: 0rem;
+  top: -0.4386rem;
   background: #ffcd26;
   border-radius: 0 0.87719rem 0 0;
 }
@@ -13838,6 +13838,10 @@ body {
 
 .web-view .header-bg {
   margin-top: 0.87719rem;
+}
+
+.how_it_works .container-inner {
+  padding: 0 1.31579rem 0 0;
 }
 
 .how_it_works .accord_btn {
@@ -14381,11 +14385,5 @@ body {
 
 .container {
   max-width: 75rem;
-}
-
-@media (min-width: 1600px) {
-  html {
-    font-size: 18px;
-  }
 }
 /*# sourceMappingURL=style.css.map */

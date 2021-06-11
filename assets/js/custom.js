@@ -52,14 +52,14 @@ if($(".cook-carousel").length!=0 ){
                 loop:true,
                 dots: true
             },
-            768:{
+            767:{
                 stagePadding:0,
                 loop:false,
                 margin:20,
                 items:3,
                 autoplay: true,
                 nav:false,
-                dots:false,
+                dots:true,
                 startPosition:1,
                 
             },
@@ -67,7 +67,8 @@ if($(".cook-carousel").length!=0 ){
                 stagePadding:0,
                 loop:false,
                 margin:20,
-                items:5,               
+                items:5,
+                dots: false               
             }
         }
     })

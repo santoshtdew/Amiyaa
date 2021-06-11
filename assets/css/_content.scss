@@ -30,10 +30,10 @@
 
 
 .about-iocn-left-1{width:size(90);height:size(45);left:size(-160);top:size(-50);position: absolute;display:inline-block;background:$orange-color-1;border-radius:size(10)  size(10) 0 0;}
-.about-iocn-left-2{width:size(80);height:size(130);left:size(-155);top:size(-30);position: absolute;}
+.about-iocn-left-2{width:size(80);height:size(130);left:size(-150);top:size(-45);position: absolute;}
 
-.about-iocn-rgt-1{width:size(45);height:size(45);right:size(-55);top:size(-5);position: absolute;background:$yellow-color-1;border-radius: size(10) 0 0 0;}
-.about-iocn-rgt-2{width:size(45);height:size(45);right:size(-160);top:size(150);position: absolute;background:$orange-color-1;border-radius: size(10) 0 0 0;}
+.about-iocn-rgt-1{width:size(45);height:size(45);right:size(-43);top:size(-5);position: absolute;background:$yellow-color-1;border-radius: size(10) 0 0 0;}
+.about-iocn-rgt-2{width:size(45);height:size(45);right:size(-160);top:size(145);position: absolute;background:$orange-color-1;border-radius: size(10) 0 0 0;}
 
 
 .inner-pg-rgt-bg{position: relative;
@@ -52,7 +52,7 @@
 .comnuty-guid-sec{position: relative;
   .inner-pg-txt{padding:0 5% 0 0;}
 }
-.comnuty-guid-tilte{margin:0 0 size(40);color:$primary-web;position: relative;
+.comnuty-guid-tilte{margin:0 0 size(30);color:$primary-web;position: relative;
     h1{color:$primary-web;font-size: size(26);line-height: size(21);margin:0 0 size(5);font-weight:$font-medium;}
     p{font-size:size(16);line-height: size(21);margin:0;font-weight:$font-medium;}
    }
@@ -65,7 +65,7 @@
     img{width:100%;max-width: 100%;}
 }
    }
-.comunty-right-img{position: relative;padding:0 0 0 10%;
+.comunty-right-img{position: relative;padding:0;
     img{max-width:100%;}
     
 }
@@ -150,12 +150,12 @@
 
 
 .cmnty-gud-icon-rgt-1{position:absolute;right:size(-170);top:size(150); width:size(45);height:size(45);display:inline-block;background: $orange-color-1;border-radius:size(10) 0 0 0;}
-.cmnty-gud-icon-rgt-2{position: absolute;top:0;left:size(-10);width:size(45);height:size(45);background:$yellow-color-1;border-radius: 0 size(10) 0 0;}
-.cmnty-gud-icon-rgt-3{position:absolute;right:size(-20);top:size(140); width:size(80);height:size(80);display:inline-block;}
-.cmnty-gud-icon-rgt-4{position: absolute;left:200px;top:0;width:size(120);height:size(80);display:inline-block;}
-.cmnty-gud-icon-rgt-5{position: absolute;left:20px;top:size(150);width:size(45);height:size(45);display:inline-block;background: $yellow-color-1;border-radius:size(10) 0 0 0;}
-.cmnty-gud-icon-left-1{position:absolute; width:size(90);height:size(50);display:inline-block;left:size(-20);top:size(50);}
-.cmnty-gud-icon-left-2{position:absolute;left:0;top:size(50);background:$primary-web; width:size(30);height:size(50);display:inline-block;}
+.cmnty-gud-icon-rgt-2{position: absolute;top:size(27);left:size(-10);width:size(45);height:size(45);background:$yellow-color-1;border-radius: 0 size(10) 0 0;}
+.cmnty-gud-icon-rgt-3{position:absolute;right:size(-15);top:size(225); width:size(80);height:size(80);display:inline-block;}
+.cmnty-gud-icon-rgt-4{position: absolute;left:200px;top:size(33);width:size(140);height:size(100);display:inline-block;}
+.cmnty-gud-icon-rgt-5{position: absolute;left:17px;top:size(180);width:size(45);height:size(45);display:inline-block;background: $yellow-color-1;border-radius:size(10) 0 0 0;}
+.cmnty-gud-icon-left-1{position:absolute; width:size(100);height:size(50);display:inline-block;left:size(-20);top:size(70);}
+.cmnty-gud-icon-left-2{position:absolute;left:0;top:size(130);background:$primary-web; width:size(30);height:size(50);display:inline-block;}
 
 .cmnty-gud-icon-mob-left-1{display:inline-block;width:size(15);height:size(30);left:size(-30);top:size(2);position: absolute;;background:$yellow-color-1;border-radius: 0 size(6) 0 0;}
 .cmnty-gud-icon-mob-left-2{display:inline-block;width:size(15);height:size(30);left:size(-27);top:size(12);position: absolute;;background:$yellow-color-1;border-radius: 0 size(6) 0 0;}
@@ -208,16 +208,16 @@
 }
 .faq-icon-rgt-1{display:inline-block;width:size(45);height:size(45);right:size(-40);position: absolute;top:size(-5);background: $yellow-color-1;border-radius:size(10) 0 0 0;}
 .faq-icon-rgt-2{display:inline-block;width:size(45);height:size(45);right:size(-160);position: absolute;bottom:size(65);background:$orange-color-1;border-radius:size(10) 0 0 0;}
-.faq-icon-rgt-3{display:inline-block;width:size(130);height:size(80);right:size(-240);position: absolute;top:size(50);}
-.faq-icon-rgt-4{display:inline-block;width:size(45);height:size(45);right:size(-110);position: absolute;top:size(50);background:$orange-color-1;border-radius:0 size(10) 0 0;}
-.faq-icon-rgt-5{display:inline-block;width:size(45);height:size(45);right:size(-380);position: absolute;top:size(80);background: $yellow-color-1;border-radius:0 0 size(10) 0;}
+.faq-icon-rgt-3{display:inline-block;width:size(130);height:size(80);right:size(-285);position: absolute;top:size(27);}
+.faq-icon-rgt-4{display:inline-block;width:size(45);height:size(45);right:size(-160);position: absolute;top:size(50);background:$orange-color-1;border-radius:0 size(10) 0 0;}
+.faq-icon-rgt-5{display:inline-block;width:size(45);height:size(45);right:size(-368);position: absolute;top:size(80);background: $yellow-color-1;border-radius:0 0 size(10) 0;}
 .faq-icon-rgt-6{display:inline-block;width:size(80);height:size(130);right:size(-180);position: absolute;top:size(90);}
 .faq-icon-rgt-7{display:inline-block;width:size(80);height:size(45);right:size(-460);position: absolute;top:size(-10);background:$orange-color-1;border-radius:size(10) 0 0 0;}
 .faq-icon-rgt-8{display:inline-block;width:size(40);height:size(40);right:size(-180);position: absolute;top:size(-10);background: $yellow-color-1;border-radius:0 size(10) 0 0;}
 .faq-icon-rgt-9{display:inline-block;width:size(40);height:size(40);right:size(-120);position: absolute;top:size(-10);background:$orange-color-1;border-radius:0 0 0 size(10);}
 .faq-icon-rgt-10{display:inline-block;width:size(40);height:size(90);right:size(-433);position: absolute;top:size(-10);background: $primary-web;border-radius:0 size(10) 0 size(10);}
 
-.faq-icon-lft-1{display:inline-block;width:size(90);height:size(45);left:size(-170);position: absolute;top:size(0);background: $yellow-color-1;border-radius: 0 size(10) 0 0;}
+.faq-icon-lft-1{display:inline-block;width:size(82);height:size(45);left:size(-175);position: absolute;top:size(-5);background: $yellow-color-1;border-radius: 0 size(10) 0 0;}
 .faq-icon-lft-2{display:inline-block;width:size(100);height:size(110);left:size(-180);position: absolute;top:size(-10);}
 .faq-icon-lft-3{display:inline-block;width:size(90);height:size(90);left:size(-170);position: absolute;top:size(50);}
 .faq-icon-lft-4{display:inline-block;width:size(50);height:size(50);left:size(-170);position: absolute;top:size(120);background:$primary-web;border-radius: 0 size(10) 0 0;}

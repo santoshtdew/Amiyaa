@@ -1,5 +1,5 @@
 .how_it_works{
-  //  .container-inner{max-width:750px;margin:0 auto;}
+    .container-inner{padding:0 size(15) 0 0;}
     .accord_btn{width: 100%;display:block;background:transparent;outline:none;padding:0;text-align:left;padding:0;margin:0 auto 15px;border:0;position: relative;cursor:pointer;
         h2{margin:0;padding:10px 20px 24px 0;font-size: 16px;line-height: 24px;color:#231F20;border-bottom:1px solid #dddddd;font-weight:400;letter-spacing:0.57px;}
          .toggle_icon{width:12px;height:10px;position: absolute;right:0;top:50%;margin-top:-10px;display:inline-block;background:url("../images/toogle_arrow.svg") no-repeat 0 0;transform-origin:center center;transition: all .6s ease-in-out;}
@@ -67,5 +67,5 @@
     .faq-icon-rgt-10{right:0;top:0;}
     .faq-icon-lft-5{left:0;}
     .priv-icon-rgt-4{right:0;top:auto;bottom:0;}
-    
+
 }

@@ -65,7 +65,7 @@
   
 .navbar.main-navbar{
     font-size:size(12);
-    height:80px;
+    height:size(80);
     box-shadow:0px 4px 4px rgba(0, 0, 0, 0.1);
     padding:0;
     .hdrhead{
@@ -1132,7 +1132,7 @@ padding:size(54) 0;
 // }
 
 @media(max-width:767px){
-    .navbar.main-navbar{height:60px;}    
+    .navbar.main-navbar{height:size(60);}    
     .cook-today-sec .cook-shape10{
     top:size(70);
     right:10%;
@@ -1677,7 +1677,7 @@ padding:size(54) 0;
 
     }
     .banner-sec .bannerwrap .banner-innertext .hdg{
-        font-size:size(18);
+        font-size:size(16);
     }
     .footer .footercontent{
         padding:size(25);

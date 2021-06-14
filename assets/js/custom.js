@@ -76,8 +76,8 @@ if($(".cook-carousel").length!=0 ){
 if($(".accord_carousel").length!=0 ){
     $('.accord_carousel').owlCarousel({
       center: true,
-      stagePadding: 60,
-      items: 4,
+      stagePadding:40,
+      items: 1,
       loop: true,
       margin:15,
       dots:true,
@@ -90,7 +90,11 @@ if($(".accord_carousel").length!=0 ){
               dots: true
           },
           1000:{
-              items:2,
+            items:1,
+            stagePadding:30,
+            margin:10,
+            loop:true,
+            dots: true
               
           }
       }

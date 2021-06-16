@@ -7,7 +7,7 @@ if($(".home-carousel").length!=0 ){
         items:1,
         autoplayTimeout: 10000,
         autoplay: true,
-        nav:false,
+        nav:true,
         startPosition:1,
         responsive:{
             0:{
@@ -147,7 +147,7 @@ $('.nav-section ul li a,.menu-iconM').click(function(){
 //mobile accordian
 $('.txt-sec.mb .heading-3').click(function(){
     let wWdth = window.innerWidth
-    if(wWdth < 767){
+    if(wWdth < 768){
         // alert('Click');
         $('.txt-sec.mb').removeClass('active');
         $(this).parent().addClass("active");

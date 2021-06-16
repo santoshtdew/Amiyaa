@@ -89,3 +89,28 @@
         width:auto;
     }
 }
+@media(max-width:1000px){
+    .inner-pg-content .inner-pg-txt p,.txt-sec p,.txt-sec .heading-3,.do-donot-sec .do-list > li,.do-donot-sec .txt-info p,.cols-bg p{
+        font-size:size(20);
+        line-height:1.5;
+    }
+    .library-sec .library-left .box-yellow p,.library-sec .library-right .box-yellow p,.shopping-sec .shopping-wrap .yellow-box ul.slist li,.inner-pg-content .btn-link,.faq-pg .accordion p,.faq-pg .accordion .btn-link,.privacy-pg .order-list-num > li,.privacy-pg .order-list-alpha.list-less-gap > li,.privacy-pg .order-list-alpha > li{
+        font-size:size(16);
+    }
+    .faq-pg .faq-list{
+        padding-left:size(24);
+    }
+    .faq-pg .faq-list > li,.faq-pg .order-list > li{
+        font-size:size(16);
+    }
+
+}
+@media(max-width:767px){
+    .inner-pg-content .inner-pg-txt p,.txt-sec p,.txt-sec .heading-3,.do-donot-sec .do-list > li,.do-donot-sec .txt-info p,.cols-bg p,.inner-pg-content .btn-link,.faq-pg .accordion p,.faq-pg .accordion .btn-link,.faq-pg .order-list > li,.faq-pg .faq-list > li,.privacy-pg .order-list-num > li,.privacy-pg .order-list-alpha.list-less-gap > li,.privacy-pg .order-list-alpha > li{
+        font-size:size(13);
+        line-height:1.5;
+    }
+    .library-sec .library-left .box-yellow p,.library-sec .library-right .box-yellow p,.shopping-sec .shopping-wrap .yellow-box ul.slist li{
+        font-size:size(11);
+    }
+} 

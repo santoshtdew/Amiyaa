@@ -11616,11 +11616,9 @@ body {
 
 .foodles-sec .wbg {
   background: #fff;
-  width: 60%;
+  width: 50%;
   position: relative;
   min-height: 100%;
-  border-top: 0.87719rem solid #ffb900;
-  border-bottom: 0.87719rem solid #ffb900;
 }
 
 .foodles-sec .wbg .foodle-shape {
@@ -11670,7 +11668,7 @@ body {
 }
 
 .foodles-sec .foodles-img {
-  margin-left: 5.26316rem;
+  margin-left: 7.89474rem;
   width: 31.31579rem;
   height: 28.15789rem;
   -ms-flex-item-align: end;
@@ -12095,7 +12093,41 @@ body {
   }
 }
 
+.home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev {
+  font-size: 8.77193rem;
+  position: absolute;
+  top: 0;
+  background: transparent;
+  height: 93%;
+}
+
+.home-carousel.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #d64226;
+  outline: none;
+}
+
+.home-carousel.owl-theme .owl-nav [class*=owl-]:focus {
+  outline: none;
+}
+
+.home-carousel.owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+
+.home-carousel.owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+@media (max-width: 1000px) {
+  .banner-sec .bannerwrap .banner-innertext {
+    left: 15%;
+  }
+}
+
 @media (max-width: 767px) {
+  .home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev {
+    font-size: 5.26316rem;
+  }
   .how_it_works .accord_btn_sub {
     width: calc(100% - 10px) !important;
   }
@@ -12357,8 +12389,9 @@ body {
     width: 17.54386rem;
   }
   .library-sec .library-right .box-yellow p {
-    padding: 0.96491rem 3.07018rem 0.96491rem 3.07018rem;
-    font-size: 0.78947rem;
+    padding: 0.87719rem 1.31579rem 0.87719rem 2.63158rem;
+    font-size: 0.96491rem;
+    line-height: 1.3;
   }
   .library-sec .tleft-15 {
     margin-left: -0.87719rem;
@@ -12387,8 +12420,9 @@ body {
     margin: 1.31579rem -5.26316rem 0 3.50877rem;
   }
   .library-sec .library-left .box-yellow p {
-    padding: 1.14035rem 2.63158rem;
-    font-size: 0.78947rem;
+    padding: 0.87719rem 0.87719rem 0.87719rem 1.31579rem;
+    font-size: 0.96491rem;
+    line-height: 1.3;
   }
   .foodles-sec {
     -webkit-box-orient: vertical;
@@ -12491,7 +12525,7 @@ body {
   }
   .shopping-sec .shopping-wrap .yellow-box ul.slist li {
     list-style: none;
-    font-size: 0.87719rem;
+    font-size: 1.05263rem;
     padding-left: 3.50877rem;
     margin-bottom: 1.75439rem;
   }
@@ -12947,8 +12981,8 @@ body {
 }
 
 .comnuty-guid-top-mob .comnuty-guid-mob-banner img {
-  width: 140%;
-  margin: -10% 0 -20% -20%;
+  width: 131%;
+  margin: -10% 0 -15% -18%;
 }
 
 .comunty-right-img {
@@ -13100,7 +13134,7 @@ body {
 
 .faq-pg .order-list > li {
   font-size: 0.96491rem;
-  line-height: 1.31579rem;
+  line-height: 1.5;
   color: #000;
 }
 
@@ -13112,7 +13146,7 @@ body {
 
 .faq-pg .faq-list > li {
   font-size: 0.96491rem;
-  line-height: 1.31579rem;
+  line-height: 1.5;
   color: #000;
 }
 
@@ -13145,7 +13179,7 @@ body {
 
 .faq-pg .accordion p {
   font-size: 1.14035rem;
-  line-height: 1.57895rem;
+  line-height: 1.5;
   margin: 0;
   color: #000;
 }
@@ -13171,7 +13205,7 @@ body {
 
 .privacy-pg .order-list-num > li {
   font-size: 0.96491rem;
-  line-height: 1.31579rem;
+  line-height: 1.5;
   color: #434142;
   margin: 0 0 1.31579rem;
 }
@@ -13193,7 +13227,7 @@ body {
 
 .privacy-pg .order-list-alpha > li {
   font-size: 0.96491rem;
-  line-height: 1.31579rem;
+  line-height: 1.5;
   color: #434142;
   margin: 0 0 1.31579rem;
 }
@@ -14425,6 +14459,32 @@ body {
   }
   .faq-pg .faq-banner-img img {
     width: auto;
+  }
+}
+
+@media (max-width: 1000px) {
+  .inner-pg-content .inner-pg-txt p, .txt-sec p, .txt-sec .heading-3, .do-donot-sec .do-list > li, .do-donot-sec .txt-info p, .cols-bg p {
+    font-size: 1.75439rem;
+    line-height: 1.5;
+  }
+  .library-sec .library-left .box-yellow p, .library-sec .library-right .box-yellow p, .shopping-sec .shopping-wrap .yellow-box ul.slist li, .inner-pg-content .btn-link, .faq-pg .accordion p, .faq-pg .accordion .btn-link, .privacy-pg .order-list-num > li, .privacy-pg .order-list-alpha.list-less-gap > li, .privacy-pg .order-list-alpha > li {
+    font-size: 1.40351rem;
+  }
+  .faq-pg .faq-list {
+    padding-left: 2.10526rem;
+  }
+  .faq-pg .faq-list > li, .faq-pg .order-list > li {
+    font-size: 1.40351rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .inner-pg-content .inner-pg-txt p, .txt-sec p, .txt-sec .heading-3, .do-donot-sec .do-list > li, .do-donot-sec .txt-info p, .cols-bg p, .inner-pg-content .btn-link, .faq-pg .accordion p, .faq-pg .accordion .btn-link, .faq-pg .order-list > li, .faq-pg .faq-list > li, .privacy-pg .order-list-num > li, .privacy-pg .order-list-alpha.list-less-gap > li, .privacy-pg .order-list-alpha > li {
+    font-size: 1.14035rem;
+    line-height: 1.5;
+  }
+  .library-sec .library-left .box-yellow p, .library-sec .library-right .box-yellow p, .shopping-sec .shopping-wrap .yellow-box ul.slist li {
+    font-size: 0.96491rem;
   }
 }
 

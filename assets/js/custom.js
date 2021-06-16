@@ -13,12 +13,12 @@ if($(".home-carousel").length!=0 ){
             0:{
                 items:1,
                 margin:15,
-                stagePadding: 30
+                stagePadding: 10
             },
             767:{
                 items:1,
                 margin:15,
-                stagePadding: 30
+                stagePadding: 10
                 
             },
             1000:{

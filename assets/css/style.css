@@ -11539,7 +11539,7 @@ body {
 
 .banner-sec .bannerwrap .banner-innertext {
   position: absolute;
-  top: 10%;
+  top: 6%;
   left: 10%;
   z-index: 9;
 }
@@ -14464,6 +14464,12 @@ body {
 }
 
 @media (max-width: 1000px) {
+  .home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev {
+    height: 90%;
+  }
+  .banner-sec .slide2 .slideimg2 {
+    left: 10.52632rem;
+  }
   .inner-pg-content .inner-pg-txt p, .txt-sec p, .txt-sec .heading-3, .do-donot-sec .do-list > li, .do-donot-sec .txt-info p, .cols-bg p {
     font-size: 1.75439rem;
     line-height: 1.5;
@@ -14486,6 +14492,12 @@ body {
   }
   .library-sec .library-left .box-yellow p, .library-sec .library-right .box-yellow p, .shopping-sec .shopping-wrap .yellow-box ul.slist li {
     font-size: 0.96491rem;
+  }
+  .banner-sec .slide2 .slideimg2 {
+    left: 0.87719rem;
+  }
+  .home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev {
+    height: 82%;
   }
 }
 

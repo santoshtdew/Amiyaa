@@ -90,6 +90,12 @@
     }
 }
 @media(max-width:1000px){
+    .home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev{
+        height:90%;
+    }
+    .banner-sec .slide2 .slideimg2{
+        left:size(120);
+    }
     .inner-pg-content .inner-pg-txt p,.txt-sec p,.txt-sec .heading-3,.do-donot-sec .do-list > li,.do-donot-sec .txt-info p,.cols-bg p{
         font-size:size(20);
         line-height:1.5;
@@ -112,5 +118,11 @@
     }
     .library-sec .library-left .box-yellow p,.library-sec .library-right .box-yellow p,.shopping-sec .shopping-wrap .yellow-box ul.slist li{
         font-size:size(11);
+    }
+    .banner-sec .slide2 .slideimg2{
+        left:size(10);
+    }
+    .home-carousel.owl-carousel .owl-nav button.owl-next, .home-carousel.owl-carousel .owl-nav button.owl-prev {
+        height: 82%;
     }
 } 

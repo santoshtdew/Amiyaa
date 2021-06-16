@@ -1,7 +1,7 @@
 //owl crousel home
 if($(".home-carousel").length!=0 ){
     $('.home-carousel').owlCarousel({
-        stagePadding: 150,
+        stagePadding: 240,
         loop:true,
         margin:40,
         items:1,

@@ -11623,7 +11623,7 @@ body {
 
 .foodles-sec .wbg .foodle-shape {
   position: absolute;
-  bottom: 0;
+  bottom: -0.08772rem;
   right: -0.08772rem;
   width: 9.38596rem;
   height: 9.38596rem;
@@ -11668,8 +11668,8 @@ body {
 }
 
 .foodles-sec .foodles-img {
-  margin-left: 7.89474rem;
-  width: 31.31579rem;
+  width: 50%;
+  text-align: center;
   height: 28.15789rem;
   -ms-flex-item-align: end;
       align-self: flex-end;
@@ -12437,7 +12437,7 @@ body {
   }
   .foodles-sec .wbg .foodle-shape {
     position: absolute;
-    bottom: 0;
+    bottom: -0.08772rem;
     right: -0.08772rem;
     width: 5.52632rem;
     height: 5.52632rem;
@@ -12474,6 +12474,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 10% 10% 0 10%;
+    width: 100%;
   }
   .foodles-sec .foodles-img img {
     width: 100%;

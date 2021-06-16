@@ -659,7 +659,7 @@ padding:size(54) 0;
         // border-bottom:size(10) solid $yellow-color;
         .foodle-shape{
             position: absolute;
-            bottom:0;
+            bottom:size(-1);
             right:size(-1);
             width:size(107);
             height:size(107);
@@ -699,8 +699,8 @@ padding:size(54) 0;
         }
     }
     .foodles-img{
-        margin-left:size(90);
-        width:size(357);
+        width:50%;
+        text-align: center;
         height:size(321);
         align-self: flex-end;
         & img{
@@ -1473,7 +1473,7 @@ padding:size(54) 0;
             border-bottom:size(0) solid $yellow-color;
             .foodle-shape{
                 position: absolute;
-                bottom:0;
+                bottom:size(-1);
                 right:size(-1);
                 width:size(63);
                 height:size(63);
@@ -1509,6 +1509,7 @@ padding:size(54) 0;
             text-align: center;
             margin:0;
             padding:10% 10% 0 10%;
+            width:100%;
             img{
                 width:100%;
             }
